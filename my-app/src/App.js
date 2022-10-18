@@ -1,8 +1,7 @@
 import React from 'react'
 import './App.css';
 import Home from './views/home';
-import Navbar from './Components/navbar';
-import Post from './Components/posts';
+import Post from '../src/Components/Posts';
 
 
 
@@ -10,7 +9,6 @@ function App() {
   return (
     <div className="App">
       <Home />
-      <Navbar />
       <Post />
     </div>
   );
