@@ -10,7 +10,7 @@ app.use(express.json());
 //GET /
 app.get("/", (req, res) => {
     res.json({
-        message: "Use /posts or /comments for data"
+        message: "Use /users, /posts or /comments for data"
     })
 })
 
@@ -21,6 +21,9 @@ app.use("/posts", require("./controllers/posts-controller"));
 
 // /comments
 app.use("/comments", require("./controllers/comments-controller"));
+
+// /users
+app.use("/users", require("./controllers/users-controller"));
 
 //listen to port
 app.listen(PORT, () => {
