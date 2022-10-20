@@ -1,5 +1,5 @@
 * {
-  background-color: black;
+  background-color: white;
   color: #cba135;
 }
 h1 {
@@ -23,3 +23,11 @@ h1 {
   font-size: 4em;
   text-align: center;
 }
+.post-test{
+  display: flex;
+  justify-content: center;
+  margin: 80px;
+}
+.MuiTypography-body2{
+  
+} 
